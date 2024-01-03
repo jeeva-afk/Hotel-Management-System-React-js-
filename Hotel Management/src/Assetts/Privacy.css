@@ -1,0 +1,30 @@
+.privacy-policy {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .Pri{
+    background-color: cornflowerblue;
+    height: 100vh;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .policy-content {
+    line-height: 1.6;
+  }
+   
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  

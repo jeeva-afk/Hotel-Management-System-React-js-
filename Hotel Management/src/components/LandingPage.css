@@ -1,0 +1,129 @@
+/* LandingPage.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Search Section Styles */
+  .search-section {
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Featured Hotels/Deals Section Styles */
+  .featured-hotels {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  
+  .hotel-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .hotel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Explore Destinations Section Styles */
+  .explore-destinations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #f0f0f0;
+  }
+  
+  .destination-card {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Footer Styles */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer nav ul li {
+    margin: 0 10px;
+  }
+  
+  footer nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social-media a {
+    margin: 0 5px;
+    color: white;
+  }
+  
